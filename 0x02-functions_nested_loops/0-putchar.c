@@ -1,8 +1,10 @@
-#include <stdio.h>
+#include "main.h"
 
-/* printing _putchar */
+/**
+ * main - prints _putchar, followed by a new line
+ * Return: Always 0 (Success)  
 int main(void)
 {
-printf("_putchar\n");
-return (0);
+	_putchar("_putchar\n");
+       return (0);
 }
