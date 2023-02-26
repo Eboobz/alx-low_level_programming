@@ -1,12 +1,12 @@
 #include <stdioo.h>
 
 /**
-*main - print statement, followed by a new line
+*main - Entry point
 *Return: Always 0 (Success)
 */  
-int puts (void)
+int main (void)
 {
-_putchar("Programming is like buiding a multilingual puzzle\n");
+puts("Programming is like buiding a multilingual puzzle");
 
 return (0)
 }
