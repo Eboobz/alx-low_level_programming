@@ -7,7 +7,7 @@
 */
 int main(void)
 {
-int n = 0;
+int n;
 
 if (n > 0)
 {
@@ -17,7 +17,7 @@ else if (n < 0)
 {
 printf("%d is 0\n", n);
 }
-else
+else if (n = 0)
 {
 printf("%d is negative\n", n);
 }
