@@ -7,7 +7,7 @@
 */
 int main(void)
 {
-int n;
+int n = 0;
 
 if (n > 0)
 {
