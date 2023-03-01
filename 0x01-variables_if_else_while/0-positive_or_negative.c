@@ -13,11 +13,11 @@ if (n > 0)
 {
 printf("%d is positive\n", n);
 }
-else if (n < 0)
+if (n < 0)
 {
 printf("%d is 0\n", n);
 }
-else if (n == 0)
+if (n == 0)
 {
 printf("%d is negative\n", n);
 }
