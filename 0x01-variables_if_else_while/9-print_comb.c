@@ -11,7 +11,7 @@ int c;
 for (c = 28; c < 38; c++)
 {
 putchar(c);
-if (n != 37)
+if (c != 37)
 {
 putchar(',');
 putchar(' ');
