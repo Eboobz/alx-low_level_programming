@@ -7,16 +7,19 @@
 */
 int main(void)
 {
-int c, a;
-for (c = 148; c < 157; c++)
+  int c, a, m;
+for (c = 48; c < 57; c++)
 {
-for (a = 149; a < 158; a++)
+for (a = 49; a < 58; a++)
 {
-if (a > c)
+for (m = 50; m < 59; m++)
+{
+if (m > a && a > c)
 {
 putchar(c);
 putchar(a);
-if (c != 156 || a != 157)
+putchar(m);
+if (c != 55 || a != 56)
 {
 putchar(',');
 putchar(' ');
