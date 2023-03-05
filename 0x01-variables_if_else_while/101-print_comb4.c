@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - print all possible ombinations of three numbers
+* main - print all possible combinations of three numbers
 * followed by a new line
 * Return: Always 0
 */
@@ -23,6 +23,7 @@ if (c != 55 || a != 56)
 {
 putchar(',');
 putchar(' ');
+}
 }
 }
 }
