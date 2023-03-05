@@ -7,7 +7,7 @@
 */
 int main(void)
 {
-  int c, a, m;
+int c, a, m;
 for (c = 48; c < 57; c++)
 {
 for (a = 49; a < 58; a++)
@@ -19,7 +19,7 @@ if (m > a && a > c)
 putchar(c);
 putchar(a);
 putchar(m);
-if (c != 56 || a != 57)
+if (c != 56 || a != 57 || m != 58)
 {
 putchar(',');
 putchar(' ');
