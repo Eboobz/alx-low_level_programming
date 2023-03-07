@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
-* prints alphabet - prints alphabet in lower case
-* followed by a new line
+* print_alphabet - prints alphabet in lower case followed by a new line
 */
 void print_alphabet(void)
 {
@@ -12,6 +11,6 @@ while (ch <= 'z')
 {
 _putchar(ch);
 ch++;
-} 
+}
 _putchar('\n');
 }
