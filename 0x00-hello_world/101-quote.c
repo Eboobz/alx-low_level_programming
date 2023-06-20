@@ -1,4 +1,4 @@
-#include <stdioo.h>
+#include <stdio.h>
 
 /**
 * main - Entry point
@@ -7,6 +7,6 @@
 */
 int main(void)
 {
-  printf('and that piece of art is useful" \- Dora Kopart, 2015-10-19 /n');
+printf("and that piece of art is useful\" \- Dora Kopart, %d\-%d\-%d\n" 2015, 10, 19);
 return (1);
 }
