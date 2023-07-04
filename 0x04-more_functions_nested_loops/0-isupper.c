@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * main - entry into the code
+ * _isupper - checks if the case study is an upper letter.
  * @c: checks if the letter is upper.
- * _isupper -  checks if the case study is an upper letter.
  * Return: 0
 */
 
