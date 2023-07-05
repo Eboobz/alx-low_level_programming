@@ -2,7 +2,8 @@
 #include "main.h"
 
 /**
- * print_number: prints numbers from 0 - 9.
+ * print_number - prints numbers from 0 - 9 with not repitition
+ * Takes voide pointer to void
  * Return: 0;
  */
 
