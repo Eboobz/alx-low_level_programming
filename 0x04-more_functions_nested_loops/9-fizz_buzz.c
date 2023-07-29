@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
  * main - Fizz Buzz code
  *
@@ -7,6 +7,7 @@
  */
 
 int main(void)
+
 {
 	int i = 1;
 
