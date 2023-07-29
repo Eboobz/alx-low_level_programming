@@ -1,22 +1,31 @@
-#include <main.h>
+#include "main.h"
 
 /**
- * more_numbers - prints numbers in nested loops
+ * more_numbers - a function that prints 10 times the numbers
  *
- * Return: nothing or voide return
-*/
+ * Return: 0
+ */
 
 void more_numbers(void)
 
 {
-	int i, j;
+	char n, c;
+	int i = 0;
 
-	for (i = 0; i < 10; i++)
+	while (i < 10)
 	{
-		for (j = 0; j < 15; j++)
+		for (n = 0; n <= 14; n++)
 		{
-			_putchar(j);
+			c = n;
+			if (n > 9)
+			{
+				_putchar('1');
+				c = n % 10;
+			}
+			_putchar('0' + c);
 		}
+
 		_putchar('\n');
+		i++;
 	}
 }
